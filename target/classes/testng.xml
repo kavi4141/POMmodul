@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <listeners>
+   <listener class-name="report.ExtentReporterNG"></listener>
+   </listeners>
+  <test thread-count="5" name="HMSAdminTest">
+    <classes>
+      <class name="hms.admin.testcase.Logintest"/>
+      <class name="hms.admin.testcase.Dashboradtest"></class>
+      <class name="hms.admin.testcase.Frontofftest"></class>
+      <class name="hms.admin.testcase.Addvistortest"></class>
+    </classes>
+  </test> <!-- HMSAdminTest -->
+</suite> <!-- Suite -->

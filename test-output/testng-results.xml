@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-25T14:10:03 IST" name="Default suite" finished-at="2022-04-25T14:12:29 IST" duration-ms="146817">
+    <groups>
+    </groups>
+    <test started-at="2022-04-25T14:10:03 IST" name="Default test" finished-at="2022-04-25T14:12:29 IST" duration-ms="146817">
+      <class name="hms.admin.testcase.Addvistortest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:hms.admin.testcase.Addvistortest@21282ed8]" started-at="2022-04-25T14:10:04 IST" name="setup" finished-at="2022-04-25T14:11:02 IST" duration-ms="58276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addvistor([Ljava.lang.String;)[pri:0, instance:hms.admin.testcase.Addvistortest@21282ed8]" started-at="2022-04-25T14:11:02 IST" name="addvistor" data-provider="getvistordata" finished-at="2022-04-25T14:11:10 IST" duration-ms="7875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1ff81b0d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addvistor -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:hms.admin.testcase.Addvistortest@21282ed8]" started-at="2022-04-25T14:11:10 IST" name="teardown" finished-at="2022-04-25T14:11:17 IST" duration-ms="7496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:hms.admin.testcase.Addvistortest@21282ed8]" started-at="2022-04-25T14:11:17 IST" name="setup" finished-at="2022-04-25T14:11:49 IST" duration-ms="31507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addvistor([Ljava.lang.String;)[pri:0, instance:hms.admin.testcase.Addvistortest@21282ed8]" started-at="2022-04-25T14:11:49 IST" name="addvistor" data-provider="getvistordata" finished-at="2022-04-25T14:11:56 IST" duration-ms="7476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1c610f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addvistor -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:hms.admin.testcase.Addvistortest@21282ed8]" started-at="2022-04-25T14:11:57 IST" name="teardown" finished-at="2022-04-25T14:11:58 IST" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:hms.admin.testcase.Addvistortest@21282ed8]" started-at="2022-04-25T14:11:58 IST" name="setup" finished-at="2022-04-25T14:12:22 IST" duration-ms="24201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addvistor([Ljava.lang.String;)[pri:0, instance:hms.admin.testcase.Addvistortest@21282ed8]" started-at="2022-04-25T14:12:22 IST" name="addvistor" data-provider="getvistordata" finished-at="2022-04-25T14:12:29 IST" duration-ms="6876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@773c7147]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addvistor -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:hms.admin.testcase.Addvistortest@21282ed8]" started-at="2022-04-25T14:12:29 IST" name="teardown" finished-at="2022-04-25T14:12:29 IST" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- hms.admin.testcase.Addvistortest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
