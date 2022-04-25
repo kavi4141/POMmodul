@@ -21,6 +21,7 @@ public class Addvistorpage extends Testbase {
 	@FindBy(css="form#formadd input[name='date']")WebElement date;
 	@FindBy(css="form#formadd textarea[name='note']")WebElement note;
 	@FindBy(css="form#formadd input[name='file']")WebElement addfile;
+	@FindBy(css="button.close")WebElement btncls;
 	
 	public Addvistorpage() {
 		PageFactory.initElements(driver, this);
@@ -57,6 +58,7 @@ public class Addvistorpage extends Testbase {
 			//upload
 			utilities.mouseclick(addfile);
 			utilities.fileupload(vd[7]);
+			btncls.click();
 		}
 
 }

@@ -5,7 +5,7 @@
     <classes>
       <class name="hms.admin.testcase.Addvistortest">
         <methods>
-          <include name="addvistor"/>
+          <include name="addvistor" invocation-numbers="0 1"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
