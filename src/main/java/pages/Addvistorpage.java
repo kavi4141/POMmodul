@@ -58,7 +58,7 @@ public class Addvistorpage extends Testbase {
 			//upload
 			utilities.mouseclick(addfile);
 			utilities.fileupload(vd[7]);
-			btncls.click();
+			
 		}
 
 }
